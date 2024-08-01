@@ -146,14 +146,19 @@ Discount Factor (
 γ): Balances the importance of immediate versus future rewards. A high discount factor makes future rewards more significant.
 Exploration vs. Exploitation: Balances between exploring new actions to discover their rewards and exploiting known actions that yield high rewards.
 Advantages and Disadvantages
+
 Advantages:
 
 Simple to understand and implement.
+
 Effective for many types of problems, including those where the environment is unknown and changes over time.
+
 Disadvantages:
 
 Can be slow to converge, especially with large state and action spaces.
+
 Requires careful tuning of parameters like 
+
 𝛼
 α and 
 𝛾
