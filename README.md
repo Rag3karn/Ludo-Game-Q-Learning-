@@ -137,3 +137,26 @@ a
 Repeat:
 
 Repeat the process for a number of episodes or until the Q-values converge (i.e., they stop changing significantly).
+Key Concepts
+Learning Rate (
+𝛼
+α): Controls how quickly the algorithm updates Q-values. A high learning rate may lead to faster learning but can also cause instability.
+Discount Factor (
+𝛾
+γ): Balances the importance of immediate versus future rewards. A high discount factor makes future rewards more significant.
+Exploration vs. Exploitation: Balances between exploring new actions to discover their rewards and exploiting known actions that yield high rewards.
+Advantages and Disadvantages
+Advantages:
+
+Simple to understand and implement.
+Effective for many types of problems, including those where the environment is unknown and changes over time.
+Disadvantages:
+
+Can be slow to converge, especially with large state and action spaces.
+Requires careful tuning of parameters like 
+𝛼
+α and 
+𝛾
+γ.
+Exploration-exploitation trade-off can be challenging to balance.
+Q-learning is a foundational algorithm in reinforcement learning and serves as a basis for more advanced methods, such as Deep Q-Learning, where neural networks are used to approximate the Q-values.
